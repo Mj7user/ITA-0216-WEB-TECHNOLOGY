@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Voting System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>E-Voting System</h1>
+    </header>
+
+    <section id="content">
+        <h2>Election Candidates</h2>
+        <form id="voting-form">
+            <label for="candidate">Select Candidate:</label>
+            <select id="candidate" name="candidate">
+                <option value="">Select...</option>
+                <option value="candidate1">Candidate 1</option>
+                <option value="candidate2">Candidate 2</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Vote">
+        </form>
+        <br>
+        <div id="result">
+            <h3>Election Results:</h3>
+            <p>Candidate 1: <span id="candidate1-count">0</span></p>
+            <p>Candidate 2: <span id="candidate2-count">0</span></p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Vehicle Rental System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Online Vehicle Rental System</h1>
+    </header>
+
+    <main>
+        <section class="search">
+            <h2>Search for Vehicle</h2>
+            <form>
+                <label for="vehicle-type">Vehicle Type:</label>
+                <select id="vehicle-type">
+                    <option value="car">Car</option>
+                    <option value="van">Van</option>
+                    <option value="bus">Bus</option>
+                </select>
+                <br>
+                <button type="submit">Search</button>
+            </form>
+        </section>
+
+        <section class="rent">
+            <h2>Rent a Vehicle</h2>
+            <form>
+                <label for="vehicle-name">Vehicle Name:</label>
+                <select id="vehicle-name">
+                    <option value="vehicle1">Vehicle 1</option>
+                    <option value="vehicle2">Vehicle 2</option>
+                    <option value="vehicle3">Vehicle 3</option>
+                </select>
+                <br>
+                <button type="submit">Rent</button>
+            </form>
+            <p id="rent-message"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2022 Online Vehicle Rental System. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
